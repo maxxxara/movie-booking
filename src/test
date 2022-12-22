@@ -1,0 +1,11 @@
+
+  const queryClient = useQueryClient();
+  const { isLoading, error, data } = useQuery(["comments"], () =>
+    makeRequest.get("/movies/filter?max=1").then((res) => {
+      return res.data;
+    })
+  );
+
+
+
+  
