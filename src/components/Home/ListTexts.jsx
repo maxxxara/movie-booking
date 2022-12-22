@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const ListTexts = () => {
   return (
@@ -8,7 +9,7 @@ const ListTexts = () => {
             <p className='text-gray6 text-md mt-4 sm:text-sm'>ფილმები რომლის ნახვაც შეგიძლიათ კინოთეატრში.</p>
         </div>
         <div>
-            <a href='#' className='text-lightBlue font-bold text-lg'>ყველას ნახვა</a>
+            <Link to='/everything' className='text-lightBlue font-bold text-lg'>ყველას ნახვა</Link>
         </div>
     </div>
   )
