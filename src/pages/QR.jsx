@@ -7,7 +7,7 @@ const QR = () => {
     <div className='container'>
       <div className=' flex justify-center items-center'>
         <div className='w-1/4 md:w-2/4 sm:w-full'>
-          <QRCode value={'localhost:3000/ticket/' + token} 
+          <QRCode value={'https://movie-booking-delta.vercel.app/ticket/' + token} 
           size={56}
           style={{ height: "auto", maxWidth: "100%", width: "100%" }}
           viewBox={`0 0 256 256`}
