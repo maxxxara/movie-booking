@@ -1,6 +1,7 @@
 import axios from "axios";
 
+axios.defaults.withCredentials = true;
 export const makeRequest = axios.create({
-  baseURL: "https://movie-booking-2yi20i7kn-maxxxara.vercel.app/",
+  baseURL: "https://booking-api-six.vercel.app/",
   withCredentials: true,
 });
